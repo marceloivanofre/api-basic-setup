@@ -1,0 +1,42 @@
+{
+  "name": "api-basic-setup",
+  "version": "0.0.1",
+  "description": "Basic setup and structure for starting API projects with Node.js, Express, and MongoDB",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marceloivanofre/api-basic-setup.git"
+  },
+  "keywords": [
+    "api",
+    "mongodb",
+    "express",
+    "nodejs"
+  ],
+  "author": "marceloivanofre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marceloivanofre/api-basic-setup/issues"
+  },
+  "homepage": "https://github.com/marceloivanofre/api-basic-setup#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "nodemon": "^1.19.4",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}
